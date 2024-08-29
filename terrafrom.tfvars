@@ -1,2 +1,2 @@
 rg_name = "hub-rg"
-rg_location =""
+rg_location ="southindia"
