@@ -1,11 +1,11 @@
-variable "rg_name" {
-  
-}
-variable "rg_location" {
-  
-}
+# variable "rg_name" {
+#   type = string
+# }
+# variable "rg_location" {
+#   type = string
+# }
 
 resource "azurerm_resource_group" "hub-rg" {
-  name     = var.rg_name
-  location = var.rg_location
+  name     = "hub-rg"
+  location = "southindia"
 }
