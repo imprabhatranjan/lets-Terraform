@@ -9,8 +9,8 @@ module "vnet" {
 
 }
 module "subnet" {
-  depends_on = [ module.vnet ]
-  source = "../../child_module/azure_subnet"
+  depends_on = [module.vnet]
+  source     = "../../child_module/azure_subnet"
   dev-subnet = var.dev-subnet
-  
+
 }

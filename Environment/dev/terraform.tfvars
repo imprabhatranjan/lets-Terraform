@@ -24,17 +24,17 @@ dev-vnet = {
   }
 }
 
-dev-subnet={
-  subnet-1={
-    name ="dev-subnet-1"
-resource_group_name = "dev-rg"
-virtual_network_name = "dev-vnet-1"
-address_prefixes = ["192.168.1.0/24"]
+dev-subnet = {
+  subnet-1 = {
+    name                 = "dev-subnet-1"
+    resource_group_name  = "dev-rg"
+    virtual_network_name = "dev-vnet-1"
+    address_prefixes     = ["192.168.1.0/24"]
   }
-  subnet-2={
-    name ="dev-subnet-1"
-resource_group_name = "dev-rg"
-virtual_network_name = "dev-vnet-1"
-address_prefixes = ["192.168.2.0/24"]
+  subnet-2 = {
+    name                 = "dev-subnet-2"
+    resource_group_name  = "dev-rg"
+    virtual_network_name = "dev-vnet-1"
+    address_prefixes     = ["192.168.2.0/24"]
   }
 }

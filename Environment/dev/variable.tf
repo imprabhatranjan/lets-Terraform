@@ -5,5 +5,5 @@ variable "dev-vnet" {
 
 }
 variable "dev-subnet" {
-  
+
 }
