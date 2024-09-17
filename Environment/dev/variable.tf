@@ -1,9 +1,9 @@
 variable "dev-rg" {
 
 }
-variable "dev-vnet" {
+# variable "dev-vnet" {
 
-}
-variable "dev-subnet" {
+# }
+# variable "dev-subnet" {
 
-}
+# }
