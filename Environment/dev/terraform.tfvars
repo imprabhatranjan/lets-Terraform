@@ -1,9 +1,9 @@
 dev-rg = {
-  rg1 = {
+  dev-rg = {
     name     = "dev-rg"
     location = "southindia"
   }
-  rg2 = {
+  qa-rg = {
     name     = "qa-rg"
     location = "southindia"
   }
