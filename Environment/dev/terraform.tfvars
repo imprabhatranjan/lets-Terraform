@@ -1,4 +1,4 @@
-dev-rg = {
+resource-group = {
   dev-rg = {
     name     = "dev-rg"
     location = "southindia"

@@ -1,4 +1,4 @@
-variable "dev-rg" {
+variable "resource-group" {
 
 }
 # variable "dev-vnet" {

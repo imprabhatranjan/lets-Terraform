@@ -1,1 +1,1 @@
-variable "dev-rg" {} 
+variable "rg-name" {} 
